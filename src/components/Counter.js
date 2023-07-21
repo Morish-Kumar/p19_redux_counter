@@ -33,6 +33,7 @@ const Counter = () => {
         <button onClick={incrementHandler}>Increment</button>
         <button onClick={increaseHandler}>increase by 5</button>
         <button onClick={decrementHandler}>Decrement</button>
+        <button>remove</button>
       </div>
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
